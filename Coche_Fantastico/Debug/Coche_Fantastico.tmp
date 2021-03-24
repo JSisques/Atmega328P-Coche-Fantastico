@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328Pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\Debug\Coche_Fantastico.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Coche_Fantastico.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Coche_Fantastico.map</FILE>
+  <FILE>Coche_Fantastico.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <izquierda><FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>7</LINE></izquierda>
+  <L1><FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>17</LINE></L1>
+  <derecha><FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>33</LINE></derecha>
+  <L2><FILE>c:\users\javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>44</LINE></L2>
+ </LABELS>
+</ASSEMBLER_INFO>
