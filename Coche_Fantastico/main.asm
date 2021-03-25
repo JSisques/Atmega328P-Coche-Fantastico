@@ -1,8 +1,8 @@
 
-SER R16
-OUT DDRD, R16
+SER R16											;Inicializamos R16 con todo unos
+OUT DDRD, R16									;Inicializamos puerto D como salida
 
-LDI R16, 1
+LDI R16, 1										;Guardamos el valor 1 en R16
 
 izquierda: 
 	
@@ -24,11 +24,11 @@ L1: dec  r22
 
 
 
-	OUT PORTD, R16
-	LSL R16
-	CPI R16, 128
-	BREQ derecha
-	RJMP izquierda
+	OUT PORTD, R16								;Sacamos R16 por los pines D
+	LSL R16										;Multiplicamos por 2 el numero binario para cambiar el LED
+	CPI R16, 128								;Comparamos R16 con 128
+	BREQ derecha								;Si es igual lo anterior accedemos a la etiqueta derecha
+	RJMP izquierda								;Saltamos a la etiqueta izquierda
 	
 derecha:
 
@@ -51,9 +51,9 @@ L2: dec  r22
 
 
 	
-	OUT PORTD, R16
-	LSR R16
-	CPI R16, 1
-	BREQ izquierda
-	RJMP derecha
+	OUT PORTD, R16								;Sacamos R16 por los pines D
+	LSR R16										;Dividimos entre 2 el numero binario para cambiar el LED
+	CPI R16, 1									;Comparamos R16 con 1
+	BREQ izquierda								;Si lo anterior es igual accedemos a la etiqueta izquierda
+	RJMP derecha								;Saltamos a la etiqueta derecha
 
