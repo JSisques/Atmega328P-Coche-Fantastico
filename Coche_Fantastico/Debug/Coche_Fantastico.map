@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.8  C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm Thu Mar 25 11:31:12 2021
+AVRASM ver. 2.2.8  C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm Thu Mar 25 11:45:18 2021
 
 
 EQU  SIGNATURE_000 0000001e
@@ -698,4 +698,4 @@ EQU  INT_VECTORS_SIZE 00000034
 CSEG izquierda    00000003
 CSEG delay_100    00000011
 CSEG derecha      0000000a
-CSEG L1           00000014
+CSEG L1           00000017

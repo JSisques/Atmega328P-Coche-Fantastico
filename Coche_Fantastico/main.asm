@@ -41,6 +41,10 @@ derecha:
 
 ***************************************************************************/
 delay_100:
+
+	PUSH R20									;Copia de seguridad del registro 20
+	PUSH R21									;Copia de seguridad del registro 21
+	PUSH R22									;Copia de seguridad del registro 22
 	; Assembly code auto-generated
 	; by utility from Bret Mulvey
 	; Delay 1 600 000 cycles
@@ -56,5 +60,8 @@ delay_100:
 		dec  r20
 		brne L1
 		nop
-
-	RET											;RET es el equivalente al return, antes deberemos de haber guardado el PC (Program Counter)		
+	
+	POP R22									;Restauración del registro 22
+	POP R21									;Restauración del registro 21
+	POP R20									;Restauración del registro 20
+	RET										;RET es el equivalente al return, antes deberemos de haber guardado el PC (Program Counter)		
