@@ -22,9 +22,9 @@
   <FILE>Coche_Fantastico.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <izquierda><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>7</LINE></izquierda>
-  <L1><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>17</LINE></L1>
-  <derecha><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>33</LINE></derecha>
-  <L2><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>44</LINE></L2>
+  <izquierda><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>11</LINE></izquierda>
+  <delay_100><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>43</LINE></delay_100>
+  <derecha><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>21</LINE></derecha>
+  <L1><FILE>C:\Users\Javi\Documents\Atmel Studio\7.0\Coche_Fantastico\Coche_Fantastico\main.asm</FILE><LINE>52</LINE></L1>
  </LABELS>
 </ASSEMBLER_INFO>
